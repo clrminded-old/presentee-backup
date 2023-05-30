@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import NavigationBar from './Components/Navigationbar/NavigationBar';
 import HomePage from './Pages/Homepage/HomePage';
 import AboutPage from './Pages/Aboutpage/AboutPage';
+import JoinPage from './Pages/JoinPage/JoinPage';
 import ContactPage from './Pages/Contactpage/ContactPage';
 import SettingsPage from './Pages/Settingspage/SettingsPage'; 
 import './App.css';
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/join" element={<JoinPage />} />
           <Route path="/settings" element={<SettingsPage theme={theme} toggleTheme={toggleTheme} setLightTheme={setLightTheme} />} />
         </Routes>
       </div>

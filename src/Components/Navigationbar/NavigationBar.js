@@ -17,6 +17,9 @@ const NavigationBar = () => {
         <li>
           <Link to="/settings">Settings</Link>
         </li>
+        <li>
+          <Link to="/join">Join</Link>
+        </li>
       </ul>
     </nav>
   );
