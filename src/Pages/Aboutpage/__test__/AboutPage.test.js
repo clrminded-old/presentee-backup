@@ -8,6 +8,6 @@ it('renders without crashing', () => {
 
 it('has a heading', () => {
     render(<AboutPage />);
-    const heading = screen.getByText('Welcome to the About Page');
+    const heading = screen.getByText('About Presentee');
     expect(heading).toBeInTheDocument();
 });
