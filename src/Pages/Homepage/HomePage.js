@@ -1,12 +1,20 @@
 import React from 'react';
 import FileUploader from '../../Components/FileUploader/FileUploader';
+import './HomePage.css';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the homepage of your app.</p>
-      <p>You can add more content and components here.</p>
+    <div className='home'>
+      <h1>
+          Welcome to Presentee!
+        </h1>
+        <p>
+          Welcome to Presentee, the innovative presentation platform designed to
+          revolutionize the way you engage with your audience. Our mission is to
+          provide presenters and attendees with an interactive and immersive
+          experience, making presentations more effective, engaging, and
+          memorable.
+        </p>
       <FileUploader />
     </div>
   );

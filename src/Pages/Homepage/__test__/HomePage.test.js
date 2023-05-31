@@ -8,7 +8,7 @@ it('renders without crashing', () => {
 
 it('has a heading', () => {
     render(<HomePage />);
-    const heading = screen.getByText('Welcome to the Home Page');
+    const heading = screen.getByText('Welcome to Presentee!');
     expect(heading).toBeInTheDocument();
 });
 
